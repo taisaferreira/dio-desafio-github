@@ -1,0 +1,47 @@
+Git e github
+- CLI  Command Line Interface -> Esse é o Git
+- GUI Graphical user interface
+
+Comandos Windows
+- cd -> navegar pelas pastas.
+- cd .. -> para retroceder uma pasta.
+- dir -> listar os diretórios contidos na pasta.
+- mkdir -> criar um diretório.
+- del/rmdir -> del se restringe a deletar arquivos, deleta tudo dentro de uma pasta | rmdir -> remove diretórios.
+- cls -> limpar a tela.
+
+Comandos Linux
+- cd -> navegar pelas pastas.
+- cd .. -> para retroceder uma pasta.
+- ls -> Listar os diretórios contidos na pasta.
+- mkdir -> criar um diretório.
+- rm - rf
+- clear -> limpar a tela.
+
+Tópicos fundamentais para entender o funcionamento do Git
+SHA1 -> A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA). A saída dessa encriptação gera conjunto de caracteres identificador de 40 dígitos.
+
+- Blobs
+- Trees
+- Commits
+
+Chaves SSH e Tokens
+Quando jogamos nossos projetos no Github nós precisamos de uma autenticação, além do nosso login e senha.
+
+Chave SSH
+Chave SSH é uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas (nosso servidor local com o github | através de uma chave pública e uma privada).
+
+Token de acesso pessoal
+Também é possível gerar um token no github, guardar e usar sempre que for fazer um commit.
+
+Introdução ao Git e ao Github
+- Untracked -> Arquivos que o git não tem informação que existe.
+- Tracked -> São arquivos que o git sabe que existe.
+- Unmodified -> Arquivos dentro do repositório do git sem alteração (o git verifica se há modificações através da comparação entre o SHA1 dos arquivos.
+- Modified -> arquivos alterados.
+- Staged -> Arquivos que estão se preparando para fazer parte de um commit.
+
+Comandos para iniciar o Git e criar um commit
+- Iniciar o GIT -> git init
+- Iniciar o versionamento -> git add
+- Criar um commit -> git commit
